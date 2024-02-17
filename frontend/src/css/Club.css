@@ -1,0 +1,26 @@
+#club-imgs {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+}
+
+.clubs-container {
+    /* background: #134580;
+    background: radial-gradient(circle farthest-corner at bottom center, #134580 0%, #04001D 37%); */
+    /* background: transparent; */
+}
+
+#clubs-text {
+    color: whitesmoke;
+    padding-right: 0.8rem;
+}
+
+.clubs-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clubs-container-heading{
+    color: aliceblue;
+}

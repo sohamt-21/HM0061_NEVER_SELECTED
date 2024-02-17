@@ -1,0 +1,45 @@
+.features-container {
+    background: radial-gradient(circle at 50% 45%, rgb(5, 55, 112) 0%, #04001d 30%);
+}
+
+.feature-top {}
+
+#feature-text-top {
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: 10%;
+}
+
+.feature-bottom {
+    border: 1px solid rgb(45, 42, 45);
+    background: #04001D;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+}
+
+#feature-text-bottom {
+    color: aliceblue;
+    font-size: larger;
+}
+
+.feature-bento {
+    display: flex;
+    flex-direction: column;
+    background: #04001D;
+}
+
+.bento-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.bento-top-left {
+    width: 60%;
+    border: 1px solid wheat;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.141);
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}

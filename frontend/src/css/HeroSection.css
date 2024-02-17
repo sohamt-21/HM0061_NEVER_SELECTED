@@ -1,0 +1,85 @@
+.hero-container {
+    background: #134580;
+    background: radial-gradient(circle farthest-side at top center, #134580 0%, #04001D 63%);
+    height: 95vh;
+}
+
+#hero-top-text {
+    font-size: 90px;
+    color: aliceblue;
+}
+.hero-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes animatedTextGradient {
+    to {
+        background-position: 200% center;
+    }
+}
+
+
+#hero-gradient-text {
+    font-size: 130px;
+    background: radial-gradient(#b17f53 20%,
+            #4574b4 95%);
+    font-weight: 600;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animatedTextGradient 1.5s reverse infinite;
+
+}
+
+.hero-bottom {
+    color: aliceblue;
+}
+
+#hero-bottom-text {
+    font-size: larger;
+
+}
+
+#skipDiv-button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(230, 230, 230);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    position: relative;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+#skipDiv-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    color: #d7d7d7;
+    background-color: rgba(150, 150, 150, 0.233);
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+#skipDiv-button:hover::before {
+    width: 100%;
+}
+
+#skipDiv-button:hover {
+    color: aliceblue;
+}
+
+#skipDiv-button:active:before {
+    background: #b9b9b9;
+}

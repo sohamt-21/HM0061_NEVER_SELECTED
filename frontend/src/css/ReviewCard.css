@@ -1,0 +1,35 @@
+.review-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    max-width: 400px; 
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 60px; 
+    height: 60px; 
+    margin-right: 10px;
+  }
+  
+  .review-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+#review-card-h3{
+    margin: 0;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+
+#review-card-p {
+    margin: 0;
+    color: aliceblue;
+    text-align: center;
+}

@@ -1,8 +1,10 @@
 .features-container {
-    background: radial-gradient(circle at 50% 45%, rgb(5, 55, 112) 0%, #04001d 30%);
+    background: radial-gradient(circle at 50% 30%, rgb(5, 55, 112) 0%, #04001d 30%);
+    display: flex;
+    flex-direction: column;
 }
 
-.feature-top {}
+/* .feature-top {} */
 
 #feature-text-top {
     color: aliceblue;
@@ -11,10 +13,12 @@
 }
 
 .feature-bottom {
-    border: 1px solid rgb(45, 42, 45);
+    border-top: 1px solid rgb(45, 42, 45);
     background: #04001D;
     border-top-left-radius: 60%;
     border-top-right-radius: 60%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60;
 }
 
 #feature-text-bottom {
@@ -23,23 +27,79 @@
 }
 
 .feature-bento {
+    height: 80vh;
     display: flex;
     flex-direction: column;
     background: #04001D;
+    margin-top: 10%;
+    width: 80%;
+    margin: auto;
 }
 
 .bento-top {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .bento-top-left {
     width: 60%;
-    border: 1px solid wheat;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.141);
-    backdrop-filter: blur(0.5px);
-    -webkit-backdrop-filter: blur(0.5px);
+    border-radius: 40px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: rgba(19, 69, 128, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.bento-top-right {
+    width: 38%;
+    color: aliceblue;
+    background: rgba(19, 69, 128, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.bento-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.bento-bottom-left{
+
+    width: 38%;
+    color: aliceblue;
+    background: rgba(19, 69, 128, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.bento-bottom-right{
+
+
+    width: 60%;
+    border-radius: 40px;
+    color: aliceblue;
+
+    background: rgba(19, 69, 128, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
 }

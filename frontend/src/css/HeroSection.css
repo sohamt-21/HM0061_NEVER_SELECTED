@@ -23,8 +23,7 @@
 
 #hero-gradient-text {
     font-size: 130px;
-    background: radial-gradient(#b17f53 20%,
-            #4574b4 95%);
+    background: radial-gradient(#b17f53 20%,#4574b4 95%);
     font-weight: 600;
     background-size: 200% auto;
     background-clip: text;

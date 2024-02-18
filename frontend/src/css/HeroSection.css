@@ -1,7 +1,7 @@
 .hero-container {
     background: #134580;
     background: radial-gradient(circle farthest-side at top center, #134580 0%, #04001D 63%);
-    height: 95vh;
+    height: fit-content;
 }
 
 #hero-top-text {
@@ -23,7 +23,7 @@
 
 #hero-gradient-text {
     font-size: 130px;
-    background: radial-gradient(#b17f53 20%,#4574b4 95%);
+    background: radial-gradient(#e38d42 20%,#4574b4 85%);
     font-weight: 600;
     background-size: 200% auto;
     background-clip: text;

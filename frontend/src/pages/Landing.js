@@ -8,11 +8,11 @@ import Footer from '../components/Footer'
 const Landing = () => {
   return (
     <div className='landing-container'>
-        <HeroSection/>
-        <Features/>
-        <Possibility/>
-        <Reviews/>
-        <Footer/>
+      <HeroSection/>
+      <Features/>
+      <Possibility/>
+      <Reviews/>
+      <Footer/>
     </div>
   )
 }

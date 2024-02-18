@@ -4,6 +4,7 @@ import Youtube from '../assests/youtube.webp'
 import Insta from '../assests/instagram.webp'
 import Linkdin from '../assests/Linkdin.webp'
 import Twitter from '../assests/twitter.webp';
+import Logo from '../assests/logo.png'
 
 const Footer = () => {
 
@@ -28,7 +29,7 @@ const Footer = () => {
             <hr style={{ width: '90%' }} />
             <div className="footercontainer">
                 <div className="footerlogo">
-                    <img src="" id='footerbelowlineimg' style={{ height: "150px", width: "300px", marginTop: '70px' }} alt="Logo Image" />
+                    <img src={Logo} id='footerbelowlineimg' style={{ height: "150px", width: "300px", marginTop: '70px' }} alt="Logo Image" />
                 </div>
 
                 <div className="footersecond">
@@ -44,7 +45,7 @@ const Footer = () => {
                 <div className="footerfifth">
                     <h2>Contact Us</h2>
                     <li id='footerli'>
-                        <a id='footera' href="edushaalahelp@gmail.com">helpdesk@sggs.edu</a>
+                        <a id='footera' href="edushaalahelp@gmail.com">helpdesk@vit.edu</a>
                         <a id='footera' href="">+91 8765432190</a>
                     </li>
                 </div>

@@ -2,14 +2,26 @@
     background: radial-gradient(circle at 50% 30%, rgb(5, 55, 112) 0%, #04001d 30%);
     display: flex;
     flex-direction: column;
+    max-height: fit-content;
 }
 
 /* .feature-top {} */
+@keyframes animatedTextGradient {
+    to {
+        background-position: 100% center;
+    }
+}
 
 #feature-text-top {
-    color: aliceblue;
     font-size: 50px;
     margin-top: 10%;
+
+    background: radial-gradient(#e38d42 20%,#4574b4 85%);
+    font-weight: 600;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animatedTextGradient 1.5s reverse infinite;
 }
 
 .feature-bottom {
@@ -27,7 +39,6 @@
 }
 
 .feature-bento {
-    height: 80vh;
     display: flex;
     flex-direction: column;
     background: #04001D;
@@ -70,14 +81,14 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.bento-bottom{
+.bento-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 1rem;
 }
 
-.bento-bottom-left{
+.bento-bottom-left {
 
     width: 38%;
     color: aliceblue;
@@ -89,7 +100,7 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.bento-bottom-right{
+.bento-bottom-right {
 
 
     width: 60%;

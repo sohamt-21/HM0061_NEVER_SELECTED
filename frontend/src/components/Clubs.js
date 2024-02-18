@@ -18,7 +18,8 @@ const Clubs = () => {
             <br/>
             <br/>
             <br/>
-            <h2 id='clubs-container-heading'>Get the opputunity to join multiple cliubs and their Events<br /><span>Get latest updates about them</span></h2>
+            <h1 style={{color:'aliceblue'}}>CLUBS</h1>
+            <p id='clubs-container-heading'>Get the opputunity to join multiple cliubs and their Events<br /><span>Get latest updates about them</span></p>
             <br />
             <br />
             <br />

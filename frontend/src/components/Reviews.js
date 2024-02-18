@@ -5,16 +5,17 @@ import ReviewCard from './ReviewCard';
 
 const Reviews = () => (
     <div className="reviews-container" style={{height:'100vh'}}>
-        <Marquee velocity={25} scatterRandomly minScale={0.7}>
+        <h1 style={{color:'aliceblue',textDecoration:'underline'}}>User Reviews</h1>
+        <Marquee velocity={30} scatterRandomly minScale={1}>
             {times(6, String).map((id) => (
                 <ReviewCard
                     key={`marquee-example-review-${id}`}
-                    avatarSrc={`https://randomuser.me/api/portraits/women/${id}.jpg`}
-                    reviewerName={`User ${id}`}
-                    reviewText={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ${id}`}
+                    avatarSrc={`https://randomuser.me/api/portraits/men/${id}.jpg`}
+                    reviewerName={`Anonymous User`}
+                    reviewText={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`}
                 />
             ))}
-        </Marquee>
+        </Marquee>  
     </div>
 );
 

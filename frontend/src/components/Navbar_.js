@@ -1,12 +1,13 @@
 import React from 'react'
 import '../css/Navbar.css'
 import { SignInButton } from '@clerk/clerk-react';
+import Logo from '../assests/logo.png'
 
 const Navbar_ = () => {
   return (
     <div id='navbar' className='navbarContainer'>
         <div className="navbarleft">
-            Logo
+            <img src={Logo} alt="Navbar Logo" style={{width:'60%',height:'40%'}}/>
         </div>
 
         <div className="navbarmid">

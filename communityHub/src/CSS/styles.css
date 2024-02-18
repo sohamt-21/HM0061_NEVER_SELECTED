@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+*,body{
+    font-family:"Anta", sans-serif ;
+}
+
+form.Login {
+    flex: 1 1 auto;
+    display: block;
+    max-width: 18vw;
+    margin: 0 auto;
+    margin-top: 6%;
+    padding: 2rem 2rem 3rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1),0 0.6rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+form.Login>* {
+    display: block;
+    width: 100%;
+}
+
+form.Login h1 {
+    margin: 0 0 2rem;
+    padding-right: 2rem;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+form.Login h1 strong {
+    display: block;
+    color: #1054de;
+    font-size: 1.5rem;
+}
+
+form.Login label {
+    margin-bottom: 0.5rem;
+    padding-left: 0.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    word-break: none;
+}
+
+form.Login label:after {
+    content: ":";
+}
+
+form.Login input {
+    margin-bottom: 1.7rem;
+    padding: 0.6rem 0.7rem 0.5rem;
+    border: 1px solid #cacaca;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+form.Login button {
+    margin-top: 2rem;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background: #1054de;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+form.Login button:hover {
+    opacity: 0.8;
+}
+
+.MainFlexClass{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+}
+
+/* This is the Css for button Starts */
+
+#GPTBut {
+    width: 200px;
+    height: 40px;
+    border: 3px solid #315cfd;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-top: 15%;
+  }
+  
+  #GPTBut:hover {
+    background: #315cfd;
+    color: white;
+    font-size: 1.5em;
+  }
+
+
+/* This is the Css for button Ends */
+
+/* This is For the Input tag */
+#inputbox {
+
+    background-color: #f5f5f5;
+    color: #242424;
+    padding: .15rem .5rem;
+    min-height: 40px;
+    border-radius: 4px;
+    outline: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+    display: block;
+    margin: auto;
+
+  }
+  
+  #inputbox:focus {
+    border-bottom: 2px solid #5b5fc7;
+    border-radius: 4px 4px 2px 2px;
+  }
+  
+  #inputbox:hover {
+    outline: 1px solid lightgrey;
+  }
+/* This is End of the Input tag */
+
+/* This is for the SmallDiv */
+#SmallDiv{
+    justify-items: center;
+    align-items: center;
+    height: fit-content;
+    margin-top: 10%;
+}
+/* This is end of SmallDiv */

@@ -9,6 +9,8 @@ import Dance from '../assests/dance.png'
 import Edc from '../assests/edc.png'
 import Ieee from '../assests/ieee.jpg'
 import Yoga from '../assests/yoga.png'
+import Photo from '../assests/photography.png'
+import Quark from '../assests/quark.png'
 
 const Clubs = () => {
     return (
@@ -19,6 +21,7 @@ const Clubs = () => {
                 <div className='clubs-div'><img id='club-imgs' src={Gdsc} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>GDSC</h3></div>
                 <div className='clubs-div'><img id='club-imgs' src={Abvp} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>ABVP</h3></div>
                 <div className='clubs-div'><img id='club-imgs' src={Csi} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>CSI</h3></div>
+                <div className='clubs-div'><img id='club-imgs' src={Photo} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>DSC</h3></div>
             </Marquee>
             <br />
             <Marquee pauseOnHover='true'  direction='right'>
@@ -26,6 +29,7 @@ const Clubs = () => {
                 <div className='clubs-div'><img id='club-imgs' src={Edc} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>EDC</h3></div>
                 <div className='clubs-div'><img id='club-imgs' src={Ieee} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>IEEE</h3></div>
                 <div className='clubs-div'><img id='club-imgs' src={Yoga} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>YOGA</h3></div>
+                <div className='clubs-div'><img id='club-imgs' src={Quark} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>Quark</h3></div>
             </Marquee>
         </div>
     )

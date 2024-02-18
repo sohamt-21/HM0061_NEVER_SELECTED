@@ -2,8 +2,17 @@ import React from 'react'
 import '../css/HeroSection.css'
 import AfterSign from './AfterSign'
 import Header from '../assests/Header.webp'
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Herosection2 = () => {
+
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, [])
+
     return (
         <div className='hero-container'>
             <AfterSign />
@@ -15,7 +24,7 @@ const Herosection2 = () => {
 
             <div className="hero-bottom">
                 <p id='hero-bottom-text'>Connecting Communities, Sparking Conversations</p>
-                <img data-aos="fade-up" data-aos-duration="3000" src={Header} alt="" />
+                <img data-aos="fade-up" src={Header} alt="" />
             </div>
         </div>
     )

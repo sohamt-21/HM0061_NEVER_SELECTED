@@ -32,14 +32,17 @@ Develop a platform for college clubs and communities to manage their organizatio
 
 
 ## Deployed Url
-[ClubSpark](https://clubsparknew.vercel.app)
-[ClubSpark](https://clubsparknew.vercel.app)
+### This is Deployed link for Platform : [ClubSpark](https://clubsparknew.vercel.app)
 
+### This is Deployed link for Meet : [Meet](https://refmemeet.vercel.app)
+
+
+### This is Deployed link for Social app : [App](https://org-connect-amber.vercel.app)
 
 
 
 ## Video Url
-[Video](https://youtu.be/LvgegdnlVoU)
+### Youtube Video :[Video](https://youtu.be/LvgegdnlVoU)
 
 ## Remarks
 Participating in the Hackmatrix Hackathon was such a rewarding journey for our team. We had the chance to explore a wide array of technologies and methodologies, which really broadened our understanding and improved our skills. One of the highlights was integrating AI/ML into our web application – it felt like a major achievement and showed how we could use the latest technologies to tackle real-world problems.

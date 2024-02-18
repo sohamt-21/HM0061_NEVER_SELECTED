@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/HeroSection.css'
 import AfterSign from './AfterSign'
+import Header from '../assests/Header.webp'
 
 const Herosection2 = () => {
     return (

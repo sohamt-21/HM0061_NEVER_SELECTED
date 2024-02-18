@@ -1,10 +1,17 @@
 import './App.css';
-import Landing from './pages/Landing';
+import { Routes, Route } from 'react-router-dom';
+import MainRender from './pages/MainRender';
+import Profile from './pages/Profile';
 
 function App() {
   return (
     <div className="App">
-      <Landing/>
+      <>
+        <Routes>
+          <Route path='/' Component={MainRender} />
+          <Route path='/profile' Component={Profile} />
+        </Routes>
+      </>
     </div>
   );
 }

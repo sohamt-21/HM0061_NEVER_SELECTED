@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Navbar.css'
+import { SignInButton } from '@clerk/clerk-react';
 
 const Navbar_ = () => {
   return (
@@ -16,8 +17,7 @@ const Navbar_ = () => {
         </div>
 
         <div className="navbarright">
-            {/* <SignInButton id='navbarbutton' /> */}
-            <button id='navbarbuttonright'>Sign In</button>
+            <SignInButton id='navbarbutton'  />
         </div>
     </div>
 )

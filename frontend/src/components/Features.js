@@ -14,7 +14,7 @@ const Features = () => {
 
 
     return (
-        <div className='features-container'>
+        <div className='features-container' id='features'>
             <div className="feature-top">
                 <Clubs />
             </div>

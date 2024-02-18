@@ -15,9 +15,9 @@ const HeroSection = () => {
       }, [])
 
     return (
-        <div className='hero-container'>
+        <div className='hero-container' id='herosection'>
             <Navbar_ />
-            <div className="hero-top">
+            <div className="hero-top" data-aos="zoom-in-up">
                 <button id='skipDiv-button'>Take a tour</button>
                 <p id='hero-top-text'>Welcome to the platform <span><br />Join Clubs & Events</span><br />
                     <span id='hero-gradient-text'>ClubSpark</span></p>

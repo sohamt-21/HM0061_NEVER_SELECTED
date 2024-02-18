@@ -12,8 +12,9 @@ const Navbar_ = () => {
 
         <div className="navbarmid">
                 <a href="#herosection" id='navbar_a'>Home</a>
-                <a href="#info" id='navbar_a'>About</a>
-                <a href="#timeline" id='navbar_a'>Use</a>
+                <a href="#clubs" id='navbar_a'>Clubs</a>
+                <a href="#features" id='navbar_a'>Features</a>
+                <a href="#reviews" id='navbar_a'>Reviews</a>
                 <a href="#footer" id='navbar_a'>Help</a>
         </div>
 

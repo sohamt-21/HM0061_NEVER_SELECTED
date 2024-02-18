@@ -14,7 +14,7 @@ import Quark from '../assests/quark.png'
 
 const Clubs = () => {
     return (
-        <div className="clubs-container" >
+        <div className="clubs-container" id='clubs'>
             <br/>
             <br/>
             <br/>

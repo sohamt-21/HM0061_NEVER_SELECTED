@@ -4,9 +4,9 @@ import times from 'lodash/times';
 import ReviewCard from './ReviewCard';
 
 const Reviews = () => (
-    <div className="reviews-container" style={{height:'100vh'}}>
+    <div className="reviews-container" style={{height:'100vh'}} id='reviews'>
         <h1 style={{color:'aliceblue',textDecoration:'underline'}}>User Reviews</h1>
-        <Marquee velocity={30} scatterRandomly minScale={1}>
+        <Marquee velocity={30} scatterRandomly minScale={0.5}>
             {times(6, String).map((id) => (
                 <ReviewCard
                     key={`marquee-example-review-${id}`}

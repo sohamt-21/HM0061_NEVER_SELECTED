@@ -18,7 +18,6 @@ const Features = () => {
             <div className="feature-top">
                 <Clubs />
             </div>
-
             <div className="feature-bottom">
                 <p id='feature-text-top'>Some of the top Features<br />out platform provides</p>
                 <p id='feature-text-bottom'>Connect members easily with messaging, group chats,<br /> and file sharing. Foster effective communication and <br /> collaboration within the club</p>

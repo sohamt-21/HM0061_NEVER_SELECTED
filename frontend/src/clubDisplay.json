@@ -1,0 +1,106 @@
+{
+  "clubs": {
+    "MLSC": {
+      "clubName": "MLSC",
+      "domain": "Web Development",
+      "description": "Club dedicated to exploring and mastering the art of web development.",
+      "events": [
+        {
+          "eventName": "CodeFest",
+          "eventDescription": "Annual coding competition showcasing innovative web projects.",
+          "eventImage": "placeholder_url"
+        },
+        {
+          "eventName": "Tech Talks",
+          "eventDescription": "Monthly sessions where industry experts share insights on web technologies.",
+          "eventImage": "placeholder_url"
+        }
+      ],
+      "alumni": [
+        {
+          "name": "Alice Johnson",
+          "currentJob": "Senior Frontend Developer",
+          "bio": "Alice is a skilled web developer with a passion for creating user-friendly and visually appealing interfaces."
+        },
+        {
+          "name": "Bob Smith",
+          "currentJob": "Full Stack Engineer",
+          "bio": "Bob excels in both frontend and backend development, contributing to various open-source projects."
+        }
+      ],
+      "achievements": {
+        "imageUrl": "placeholder_url",
+        "title": "Best Student Coding Club Award",
+        "description": "Awarded for outstanding contributions to the field of web development during the annual tech conference."
+      }
+    },
+    "GDSC": [
+      {
+        "domain": "Internet of Things (IoT)",
+        "description": "Club focused on exploring and experimenting with IoT technologies.",
+        "events": [
+          {
+            "eventName": "IoT Hackathon",
+            "eventDescription": "A hands-on hackathon challenging participants to build innovative IoT solutions.",
+            "eventImage": "placeholder_url"
+          },
+          {
+            "eventName": "Smart Home Workshop",
+            "eventDescription": "Workshop teaching the basics of creating a smart home using IoT devices.",
+            "eventImage": "placeholder_url"
+          }
+        ],
+        "alumni": [
+          {
+            "name": "Charlie Brown",
+            "currentJob": "IoT Solutions Architect",
+            "bio": "Charlie is a pioneer in the field of IoT, designing scalable and secure solutions for smart environments."
+          },
+          {
+            "name": "Diana White",
+            "currentJob": "Embedded Systems Engineer",
+            "bio": "Diana specializes in embedded systems, contributing to the development of IoT devices for healthcare."
+          }
+        ],
+        "achievements": {
+          "imageUrl": "placeholder_url",
+          "title": "Innovation Award",
+          "description": "Recognized for creating a groundbreaking IoT solution that addressed a real-world problem."
+        }
+      },
+      {
+        "domain": "Mobile App Development",
+        "description": "Club dedicated to exploring the world of mobile app development across platforms.",
+        "events": [
+          {
+            "eventName": "App Showcase",
+            "eventDescription": "Annual event where members showcase their innovative mobile app projects.",
+            "eventImage": "placeholder_url"
+          },
+          {
+            "eventName": "Flutter Workshop",
+            "eventDescription": "Hands-on workshop introducing Flutter for cross-platform app development.",
+            "eventImage": "placeholder_url"
+          }
+        ],
+        "alumni": [
+          {
+            "name": "Eva Green",
+            "currentJob": "iOS Developer",
+            "bio": "Eva is a skilled iOS developer with experience in creating visually stunning and user-friendly mobile applications."
+          },
+          {
+            "name": "Frank Miller",
+            "currentJob": "Android Developer",
+            "bio": "Frank specializes in Android app development, contributing to the success of various mobile projects."
+          }
+        ],
+        "achievements": {
+          "imageUrl": "placeholder_url",
+          "title": "App of the Year Award",
+          "description": "Received the prestigious 'App of the Year' award for creating an exceptional and innovative mobile application."
+        }
+      }
+    ]
+  }
+}

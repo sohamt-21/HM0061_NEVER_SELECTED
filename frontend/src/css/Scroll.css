@@ -1,0 +1,71 @@
+.scroll-section-outer {
+    overflow: hidden;
+    color: aliceblue;
+  }
+  
+  .scroll-section-inner {
+    height: 100vh;
+    width: 400vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  
+  .scroll-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .scroll-section h3 {
+    color: var(--primaryTextColor);
+    letter-spacing: var(--headlineMedium);
+    font-size: var(--headlineMedium);
+    text-transform: uppercase;
+  }
+  
+  #stepButton1{
+    position: relative;
+      font-size:30px;
+      font-family:Arial;
+      width:200px;
+      height:100px;
+      border-width:1px;
+      border: none;
+      font-weight:bold;
+      border-top-left-radius:28px;
+      border-top-right-radius:28px;
+      border-bottom-left-radius:28px;
+      border-bottom-right-radius:28px;
+      background:linear-gradient(rgba(195, 71, 238, 1), rgba(219, 166, 233, 1));
+  }
+  #stepButton2{
+    position: absolute;
+    font-size:30px;
+    font-family:Arial;
+    width:200px;
+    height:100px;
+    border-width:1px;
+    border: none;
+    font-weight:bold;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    background:linear-gradient(rgb(39, 236, 141), rgb(130, 231, 165));
+  }
+  
+  .left1{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+  }
+  .left1-bottom{
+    color: aliceblue;
+    font-size: 80px;
+  }
+  .left1-top{
+    font-size: 80px;
+  }

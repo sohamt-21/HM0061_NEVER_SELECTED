@@ -3,6 +3,7 @@ import '../css/Navbar.css'
 import { SignOutButton, useUser } from '@clerk/clerk-react';
 import { Link } from 'react-router-dom';
 import { useUserEmail } from '../Context/UserEmail';
+import Logo from '../assests/logo.png'
 
 
 const AfterSign = () => {
@@ -15,7 +16,7 @@ const AfterSign = () => {
     return (
         <div id='navbar' className='navbarContainer'>
             <div className="navbarleft">
-                Logo
+                <img src={Logo} alt="Navbar Logo" style={{ width: '60%', height: '40%' }} />
             </div>
 
             <div className="navbarmid">

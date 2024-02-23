@@ -1,0 +1,157 @@
+Interest1,Interest2,Skill1,Skill2,Skill3,ClubName
+Coding,Music,Python,Machine Learning,Data Analysis,Programming Club
+Coding,Cooking,Python,Machine Learning,Guitar,Data Science Club
+Coding,Sports,Python,Machine Learning,Singing,Robotics Club
+Coding,Art,Python,Machine Learning,Composition,Music Club
+Coding,Gardening,Python,Machine Learning,Culinary Arts,Travel Club
+Coding,History,Python,Machine Learning,Styling,Language Club
+Coding,Movies,Python,Machine Learning,Photo Editing,Cooking Club
+Coding,Technology,Python,Machine Learning,Meditation,Book Club
+Coding,Science,Python,Machine Learning,Asanas,Photography Club
+Coding,Writing,Python,Machine Learning,Breathing Techniques,Sports Club
+Coding,Photography,Python,Machine Learning,Inner Peace,Film Making Club
+Coding,Traveling,Python,Machine Learning,Research,Art Club
+Music,Coding,Python,Data Analysis,Machine Learning,Programming Club
+Music,Cooking,Python,Data Analysis,Guitar,Data Science Club
+Music,Sports,Python,Data Analysis,Singing,Robotics Club
+Music,Art,Python,Data Analysis,Composition,Music Club
+Music,Gardening,Python,Data Analysis,Culinary Arts,Travel Club
+Music,History,Python,Data Analysis,Styling,Language Club
+Music,Movies,Python,Data Analysis,Photo Editing,Cooking Club
+Music,Technology,Python,Data Analysis,Meditation,Book Club
+Music,Science,Python,Data Analysis,Asanas,Photography Club
+Music,Writing,Python,Data Analysis,Breathing Techniques,Sports Club
+Music,Photography,Python,Data Analysis,Inner Peace,Film Making Club
+Music,Traveling,Python,Data Analysis,Research,Art Club
+Cooking,Coding,Python,Guitar,Machine Learning,Programming Club
+Cooking,Music,Python,Guitar,Data Analysis,Data Science Club
+Cooking,Sports,Python,Guitar,Singing,Robotics Club
+Cooking,Art,Python,Guitar,Composition,Music Club
+Cooking,Gardening,Python,Guitar,Culinary Arts,Travel Club
+Cooking,History,Python,Guitar,Styling,Language Club
+Cooking,Movies,Python,Guitar,Photo Editing,Cooking Club
+Cooking,Technology,Python,Guitar,Meditation,Book Club
+Cooking,Science,Python,Guitar,Asanas,Photography Club
+Cooking,Writing,Python,Guitar,Breathing Techniques,Sports Club
+Cooking,Photography,Python,Guitar,Inner Peace,Film Making Club
+Cooking,Traveling,Python,Guitar,Research,Art Club
+Sports,Coding,Python,Singing,Machine Learning,Programming Club
+Sports,Music,Python,Singing,Data Analysis,Data Science Club
+Sports,Cooking,Python,Singing,Guitar,Robotics Club
+Sports,Art,Python,Singing,Composition,Music Club
+Sports,Gardening,Python,Singing,Culinary Arts,Travel Club
+Sports,History,Python,Singing,Styling,Language Club
+Sports,Movies,Python,Singing,Photo Editing,Cooking Club
+Sports,Technology,Python,Singing,Meditation,Book Club
+Sports,Science,Python,Singing,Asanas,Photography Club
+Sports,Writing,Python,Singing,Breathing Techniques,Sports Club
+Sports,Photography,Python,Singing,Inner Peace,Film Making Club
+Sports,Traveling,Python,Singing,Research,Art Club
+Art,Coding,Python,Composition,Machine Learning,Programming Club
+Art,Music,Python,Composition,Data Analysis,Data Science Club
+Art,Cooking,Python,Composition,Guitar,Robotics Club
+Art,Sports,Python,Composition,Singing,Music Club
+Art,Gardening,Python,Composition,Culinary Arts,Travel Club
+Art,History,Python,Composition,Styling,Language Club
+Art,Movies,Python,Composition,Photo Editing,Cooking Club
+Art,Technology,Python,Composition,Meditation,Book Club
+Art,Science,Python,Composition,Asanas,Photography Club
+Art,Writing,Python,Composition,Breathing Techniques,Sports Club
+Art,Photography,Python,Composition,Inner Peace,Film Making Club
+Art,Traveling,Python,Composition,Research,Art Club
+Gardening,Coding,Python,Culinary Arts,Machine Learning,Programming Club
+Gardening,Music,Python,Culinary Arts,Data Analysis,Data Science Club
+Gardening,Cooking,Python,Culinary Arts,Guitar,Robotics Club
+Gardening,Sports,Python,Culinary Arts,Singing,Music Club
+Gardening,Art,Python,Culinary Arts,Composition,Travel Club
+Gardening,History,Python,Culinary Arts,Styling,Language Club
+Gardening,Movies,Python,Culinary Arts,Photo Editing,Cooking Club
+Gardening,Technology,Python,Culinary Arts,Meditation,Book Club
+Gardening,Science,Python,Culinary Arts,Asanas,Photography Club
+Gardening,Writing,Python,Culinary Arts,Breathing Techniques,Sports Club
+Gardening,Photography,Python,Culinary Arts,Inner Peace,Film Making Club
+Gardening,Traveling,Python,Culinary Arts,Research,Art Club
+History,Coding,Python,Styling,Machine Learning,Programming Club
+History,Music,Python,Styling,Data Analysis,Data Science Club
+History,Cooking,Python,Styling,Guitar,Robotics Club
+History,Sports,Python,Styling,Singing,Music Club
+History,Art,Python,Styling,Composition,Travel Club
+History,Gardening,Python,Styling,Culinary Arts,Language Club
+History,Movies,Python,Styling,Photo Editing,Cooking Club
+History,Technology,Python,Styling,Meditation,Book Club
+History,Science,Python,Styling,Asanas,Photography Club
+History,Writing,Python,Styling,Breathing Techniques,Sports Club
+History,Photography,Python,Styling,Inner Peace,Film Making Club
+History,Traveling,Python,Styling,Research,Art Club
+Movies,Coding,Python,Photo Editing,Machine Learning,Programming Club
+Movies,Music,Python,Photo Editing,Data Analysis,Data Science Club
+Movies,Cooking,Python,Photo Editing,Guitar,Robotics Club
+Movies,Sports,Python,Photo Editing,Singing,Music Club
+Movies,Art,Python,Photo Editing,Composition,Travel Club
+Movies,Gardening,Python,Photo Editing,Culinary Arts,Language Club
+Movies,History,Python,Photo Editing,Styling,Cooking Club
+Movies,Technology,Python,Photo Editing,Meditation,Book Club
+Movies,Science,Python,Photo Editing,Asanas,Photography Club
+Movies,Writing,Python,Photo Editing,Breathing Techniques,Sports Club
+Movies,Photography,Python,Photo Editing,Inner Peace,Film Making Club
+Movies,Traveling,Python,Photo Editing,Research,Art Club
+Technology,Coding,Python,Meditation,Machine Learning,Programming Club
+Technology,Music,Python,Meditation,Data Analysis,Data Science Club
+Technology,Cooking,Python,Meditation,Guitar,Robotics Club
+Technology,Sports,Python,Meditation,Singing,Music Club
+Technology,Art,Python,Meditation,Composition,Travel Club
+Technology,Gardening,Python,Meditation,Culinary Arts,Language Club
+Technology,History,Python,Meditation,Styling,Cooking Club
+Technology,Movies,Python,Meditation,Photo Editing,Book Club
+Technology,Science,Python,Meditation,Asanas,Photography Club
+Technology,Writing,Python,Meditation,Breathing Techniques,Sports Club
+Technology,Photography,Python,Meditation,Inner Peace,Film Making Club
+Technology,Traveling,Python,Meditation,Research,Art Club
+Science,Coding,Python,Asanas,Machine Learning,Programming Club
+Science,Music,Python,Asanas,Data Analysis,Data Science Club
+Science,Cooking,Python,Asanas,Guitar,Robotics Club
+Science,Sports,Python,Asanas,Singing,Music Club
+Science,Art,Python,Asanas,Composition,Travel Club
+Science,Gardening,Python,Asanas,Culinary Arts,Language Club
+Science,History,Python,Asanas,Styling,Cooking Club
+Science,Movies,Python,Asanas,Photo Editing,Book Club
+Science,Technology,Python,Asanas,Meditation,Photography Club
+Science,Writing,Python,Asanas,Breathing Techniques,Sports Club
+Science,Photography,Python,Asanas,Inner Peace,Film Making Club
+Science,Traveling,Python,Asanas,Research,Art Club
+Writing,Coding,Python,Breathing Techniques,Machine Learning,Programming Club
+Writing,Music,Python,Breathing Techniques,Data Analysis,Data Science Club
+Writing,Cooking,Python,Breathing Techniques,Guitar,Robotics Club
+Writing,Sports,Python,Breathing Techniques,Singing,Music Club
+Writing,Art,Python,Breathing Techniques,Composition,Travel Club
+Writing,Gardening,Python,Breathing Techniques,Culinary Arts,Language Club
+Writing,History,Python,Breathing Techniques,Styling,Cooking Club
+Writing,Movies,Python,Breathing Techniques,Photo Editing,Book Club
+Writing,Technology,Python,Breathing Techniques,Meditation,Photography Club
+Writing,Science,Python,Breathing Techniques,Asanas,Sports Club
+Writing,Photography,Python,Breathing Techniques,Inner Peace,Film Making Club
+Writing,Traveling,Python,Breathing Techniques,Research,Art Club
+Photography,Coding,Python,Inner Peace,Machine Learning,Programming Club
+Photography,Music,Python,Inner Peace,Data Analysis,Data Science Club
+Photography,Cooking,Python,Inner Peace,Guitar,Robotics Club
+Photography,Sports,Python,Inner Peace,Singing,Music Club
+Photography,Art,Python,Inner Peace,Composition,Travel Club
+Photography,Gardening,Python,Inner Peace,Culinary Arts,Language Club
+Photography,History,Python,Inner Peace,Styling,Cooking Club
+Photography,Movies,Python,Inner Peace,Photo Editing,Book Club
+Photography,Technology,Python,Inner Peace,Meditation,Photography Club
+Photography,Science,Python,Inner Peace,Asanas,Sports Club
+Photography,Writing,Python,Inner Peace,Breathing Techniques,Film Making Club
+Photography,Traveling,Python,Inner Peace,Research,Art Club
+Traveling,Coding,Python,Research,Machine Learning,Programming Club
+Traveling,Music,Python,Research,Data Analysis,Data Science Club
+Traveling,Cooking,Python,Research,Guitar,Robotics Club
+Traveling,Sports,Python,Research,Singing,Music Club
+Traveling,Art,Python,Research,Composition,Travel Club
+Traveling,Gardening,Python,Research,Culinary Arts,Language Club
+Traveling,History,Python,Research,Styling,Cooking Club
+Traveling,Movies,Python,Research,Photo Editing,Book Club
+Traveling,Technology,Python,Research,Meditation,Photography Club
+Traveling,Science,Python,Research,Asanas,Sports Club
+Traveling,Writing,Python,Research,Breathing Techniques,Film Making Club
+Traveling,Photography,Python,Research,Inner Peace,Art Club

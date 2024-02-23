@@ -76,7 +76,7 @@ function HorizentalS() {
                 Step 4
               </p>
               <p className="left1-bottom">
-                Get to know your skill favourable club
+                Get to know your skill favourable <a href="http://127.0.0.1:5000/" style={{ color: "aliceblue" }}>club</a>
               </p>
             </div>
           </div>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Membership Prediction Result</title>
+</head>
+<style>
+
+    .MainClassInterestResult {
+        display: block;
+        margin: auto;
+        width: fit-content;
+
+    }
+
+    .cookieCard {
+        width: 300px;
+        height: 200px;
+        background: linear-gradient(to right, rgb(137, 104, 255), rgb(175, 152, 255));
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .cookieCard::before {
+        width: 150px;
+        height: 150px;
+        content: "";
+        background: linear-gradient(to right, rgb(142, 110, 255), rgb(208, 195, 255));
+        position: absolute;
+        z-index: 1;
+        border-radius: 50%;
+        right: -25%;
+        top: -25%;
+    }
+
+    .cookieHeading {
+        font-size: 2.5em;
+        font-weight: 600;
+        color: rgb(241, 241, 241);
+        z-index: 2;
+    }
+
+    .cookieDescription {
+        font-size: 1.5em;
+        color: rgb(241, 241, 241);
+        z-index: 2;
+        font-weight: bolder;
+    }
+
+    .cookieDescription a {
+        color: rgb(241, 241, 241);
+    }
+
+    .acceptButton {
+        padding: 11px 20px;
+        background-color: #7b57ff;
+        transition-duration: .2s;
+        border: none;
+        color: rgb(241, 241, 241);
+        cursor: pointer;
+        font-weight: 600;
+        z-index: 2;
+    }
+
+    .acceptButton:hover {
+        background-color: #714aff;
+        transition-duration: .2s;
+    }
+</style>
+
+<body>
+    <div class="MainClassInterestResult">
+        <h1>Club Membership Prediction Result</h1>
+        <!-- <p><strong>Interest 1:</strong> {{ interest1 }}</p>
+        <p><strong>Interest 2:</strong> {{ interest2 }}</p>
+        <p><strong>Skill 1:</strong> {{ skill1 }}</p>
+        <p><strong>Skill 2:</strong> {{ skill2 }}</p>
+        <p><strong>Skill 3:</strong> {{ skill3 }}</p> -->
+        <div class="cookieCard">
+            <p class="cookieHeading">Predicted Club</p>
+            <p class="cookieDescription">{{ predicted_club }}</p>
+        </div>
+    </div>
+</body>
+
+</html>

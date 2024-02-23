@@ -2,8 +2,8 @@
   "clubs": {
     "MLSC": {
       "clubName": "MLSC",
-      "domain": "Web Development",
-      "description": "Club dedicated to exploring and mastering the art of web development.",
+      "clubdomain": "Web Development",
+      "clubdescription": "Club dedicated to exploring and mastering the art of web development.",
       "events": [
         {
           "eventName": "CodeFest",

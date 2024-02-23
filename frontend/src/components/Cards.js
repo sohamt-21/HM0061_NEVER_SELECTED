@@ -1,16 +1,16 @@
 import React from 'react'
 import '../css/Card.css'
-const Cards = (club) => {
+const Cards = ({title,subtitle,imageURL,descrption}) => {
     return (
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <p class="title">FLIP CARD</p>
-                    <p>Hover Me</p>
+                    <img src={imageURL} alt="" style={{height:'80%',width:'80%'}}/>
+                    <p className='title'>{title}</p>
+                    <p>{subtitle}</p>
                 </div>
                 <div class="flip-card-back">
-                    <p class="title">BACK</p>
-                    <p>Leave Me</p>
+                    <p style={{color:'black'}}>{descrption}</p>
                 </div>
             </div>
         </div>

@@ -37,19 +37,20 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border: 1px solid coral;
+    border: 1px solid rgb(206, 206, 206);
     border-radius: 1rem;
 }
 
 .flip-card-front {
     background: linear-gradient(120deg, rgb(234, 234, 234) 60%,rgb(218, 220, 225)) 88%,
-            rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%;
-    color: coral;
+            rgb(77, 127, 213) 40%, rgba(21, 122, 236, 0.603) 48%;
+    color: aliceblue;
+    align-items: center;
 }
 
 .flip-card-back {
-    background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,
-            bisque 40%, rgb(255, 185, 160) 78%);
-    color: white;
+    background: linear-gradient(120deg, rgb(72, 118, 186) 30%, rgb(44, 101, 246) 88%,
+            rgb(84, 155, 255) 40%, rgb(75, 141, 254) 78%);
+    color: aliceblue;
     transform: rotateY(180deg);
 }

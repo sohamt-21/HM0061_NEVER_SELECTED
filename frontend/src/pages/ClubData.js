@@ -5,18 +5,16 @@ import Star from '../assests/Star'
 import Domain from '../components/Domain'
 import { useState } from 'react'
 import Events from '../components/Events'
+import Achievement from '../components/Achievement'
 import axios from 'axios'
+import clubjson from '../clubDisplay.json'
 
 
 const ClubData = ({ clubname }) => {
+    const clubdata = clubjson.clubs && clubjson.clubs[clubname];
+    console.log(clubdata);
 
-    // const selectedClub = clubDisplay.clubs.find((club) =>{if(club.clubName.match('MLSC')){
-    //     console.log('Matched')
-    // }
-    // });
-    // console.log(selectedClub)
-
-    const [selectedComponent, setSelectedComponent] = useState("");
+    const [selectedComponent, setSelectedComponent] = useState("Domain");
     const [Ratingdata, setRatingdata] = useState(0);
 
     const clickDomain = () => {
@@ -27,21 +25,21 @@ const ClubData = ({ clubname }) => {
         setSelectedComponent('Events');
     }
 
-    const clickAch = () =>{
+    const clickAch = () => {
         setSelectedComponent('Achievement');
     }
 
 
     function roundToOneDecimalPlace(number) {
         return Number(number.toFixed(1));
-      }
+    }
 
 
-    const MakeRequestforRating=async()=>{
-        axios.post("http://localhost:9000/GetClubRatings",{ClubName:'MLSC'},{withCredentials:true}).then((res)=>{
-           const RoundedOff=roundToOneDecimalPlace(res.data);
+    const MakeRequestforRating = async () => {
+        axios.post("http://localhost:9000/GetClubRatings", { ClubName: 'MLSC' }, { withCredentials: true }).then((res) => {
+            const RoundedOff = roundToOneDecimalPlace(res.data);
             setRatingdata(RoundedOff);
-        }).catch((err)=>{
+        }).catch((err) => {
             console.log(`Error Has been Occured : ${err}`);
         })
     }
@@ -55,12 +53,7 @@ const ClubData = ({ clubname }) => {
                     <img src={Mlsc} alt="" />
                 </div>
                 <div className="left-rating">
-                    {/* <Star />
-                    <Star />
-                    <Star />
-                    <Star />
-                    <Star /> */}
-                    <p style={{color:"white",fontSize:"20px"}}>{Ratingdata}</p>
+                    <p style={{ color: "white", fontSize: "20px" }}>{Ratingdata}</p>
                     <Star />
                 </div>
 
@@ -77,9 +70,9 @@ const ClubData = ({ clubname }) => {
                 </div>
 
                 <div className="right-bottom">
-                    {selectedComponent === 'Domain' && <Domain />}
-                    {selectedComponent==='Events' && <Events/>}
-                    {selectedComponent=='Achievement'}
+                    {selectedComponent === 'Domain' && <Domain clubnameD={clubname}/>}
+                    {selectedComponent === 'Events' && <Events />}
+                    {selectedComponent == 'Achievement' && <Achievement/>}
                 </div>
             </div>
         </div>

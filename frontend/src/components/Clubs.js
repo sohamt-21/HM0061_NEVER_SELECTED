@@ -11,29 +11,31 @@ import Ieee from '../assests/ieee.jpg'
 import Yoga from '../assests/yoga.png'
 import Photo from '../assests/photography.png'
 import Quark from '../assests/quark.png'
+import {Link} from 'react-router-dom'
 
-const Clubs = () => {
+const Clubs = (props) => {
+
     return (
         <div className="clubs-container" id='clubs'>
-            <br/>
-            <br/>
-            <br/>
-            <h1 style={{color:'aliceblue'}}>CLUBS</h1>
+            <h1 style={{ color: 'aliceblue' }}>CLUBS</h1>
             <p id='clubs-container-heading'>Get the opputunity to join multiple cliubs and their Events<br /><span>Get latest updates about them</span></p>
-            <br />
-            <br />
-            <br />
-            <br />
             <Marquee pauseOnHover='true'>
-                <div className='clubs-div'><img id='club-imgs' src={Mlsc} alt="" style={{ padding: '1rem' }}/><h3 id='clubs-text'>MLSC</h3></div>
+
+                <Link to={"/Club"} style={{textDecoration:'none',listStyle:'none'}}>
+                    <div className='clubs-div'>
+                        <img id='club-imgs' src={Mlsc} alt="" style={{ padding: '1rem' }} />
+                        <h3 id='clubs-text'>MLSC</h3>
+                    </div>
+                </Link>
+
                 <div className='clubs-div'><img id='club-imgs' src={Gdsc} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>GDSC</h3></div>
                 <div className='clubs-div'><img id='club-imgs' src={Abvp} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>ABVP</h3></div>
                 <div className='clubs-div'><img id='club-imgs' src={Csi} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>CSI</h3></div>
                 <div className='clubs-div'><img id='club-imgs' src={Photo} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>DSC</h3></div>
             </Marquee>
             <br />
-            <Marquee pauseOnHover='true'  direction='right'>
-            <div className='clubs-div'><img id='club-imgs' src={Dance} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>Zephyr</h3></div>
+            <Marquee pauseOnHover='true' direction='right'>
+                <div className='clubs-div'><img id='club-imgs' src={Dance} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>Zephyr</h3></div>
                 <div className='clubs-div'><img id='club-imgs' src={Edc} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>EDC</h3></div>
                 <div className='clubs-div'><img id='club-imgs' src={Ieee} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>IEEE</h3></div>
                 <div className='clubs-div'><img id='club-imgs' src={Yoga} alt="" style={{ padding: '1rem' }} /><h3 id='clubs-text'>YOGA</h3></div>

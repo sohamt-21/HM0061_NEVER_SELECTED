@@ -60,23 +60,12 @@ function HorizentalS() {
           </div>
 
           <div className="scroll-section">
-            <div className="left2">
-              <p className="left2-top">
-                Step 1
-              </p>
-              <p className="left2-bottom">
-                Create your account <a href="#navbar" style={{ color: "aliceblue" }}>here</a>
-              </p>
-            </div>
-          </div>
-
-          <div className="scroll-section">
-            <div className="left2">
-              <p className="left2-top">
+            <div className="left1">
+              <p className="left1-top">
                 Step 2
               </p>
-              <p className="left2-bottom">
-                Hover Clubs for <a href="#clubs">information</a>
+              <p className="left1-bottom">
+                Hover Clubs for <a href="#clubs" style={{ color: "aliceblue" }}>information</a>
               </p>
             </div>
           </div>
@@ -98,7 +87,7 @@ function HorizentalS() {
                 Step 5
               </p>
               <p className="left1-bottom">
-                Join our social app
+                Join our social <a href="https://org-connect-amber.vercel.app" style={{ color: "aliceblue" }}>App</a>
               </p>
             </div>
           </div>
@@ -109,8 +98,9 @@ function HorizentalS() {
                 Step 6
               </p>
               <p className="left1-bottom">
-                Community Guide:
+                Community Guide
               </p>
+              <p style={{color:'whitesmoke'}}>Here there are two types <br /> of Communities, Private and Public. <br />Users should join public communities for announcement.<br /> Club memnbers are in private communities</p>
             </div>
           </div>
 
@@ -120,7 +110,11 @@ function HorizentalS() {
                 Step 7
               </p>
               <p className="left1-bottom">
-                Interviews
+                Interview and Discussion
+              </p>
+
+              <p style={{color:'whitesmoke'}}>
+                We have an integrated meet platform for club memnbers to take seamless discussion meets. <br />Also for volunteer interviews also the platoform can be used.
               </p>
             </div>
           </div>
@@ -131,7 +125,10 @@ function HorizentalS() {
                 Step 8
               </p>
               <p className="left1-bottom">
-                Posts guide
+                Posts
+              </p>
+              <p style={{color:'whitesmoke'}}>
+                ALl posts are first detected for any violence <br />If any illegal thing is found, such post are blocked. <br /> Admin and users has access to block and report other users.
               </p>
             </div>
           </div>

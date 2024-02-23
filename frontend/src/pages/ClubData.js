@@ -5,6 +5,7 @@ import Star from '../assests/Star'
 import Domain from '../components/Domain'
 import { useState } from 'react'
 import Events from '../components/Events'
+import axios from 'axios'
 
 
 const ClubData = ({ clubname }) => {
@@ -16,6 +17,7 @@ const ClubData = ({ clubname }) => {
     // console.log(selectedClub)
 
     const [selectedComponent, setSelectedComponent] = useState("");
+    const [Ratingdata, setRatingdata] = useState(0);
 
     const clickDomain = () => {
         setSelectedComponent('Domain');
@@ -29,6 +31,23 @@ const ClubData = ({ clubname }) => {
         setSelectedComponent('Achievement');
     }
 
+
+    function roundToOneDecimalPlace(number) {
+        return Number(number.toFixed(1));
+      }
+
+
+    const MakeRequestforRating=async()=>{
+        axios.post("http://localhost:9000/GetClubRatings",{ClubName:'MLSC'},{withCredentials:true}).then((res)=>{
+           const RoundedOff=roundToOneDecimalPlace(res.data);
+            setRatingdata(RoundedOff);
+        }).catch((err)=>{
+            console.log(`Error Has been Occured : ${err}`);
+        })
+    }
+
+    MakeRequestforRating();
+
     return (
         <div className='clubdata-container'>
             <div className="left-data">
@@ -36,10 +55,12 @@ const ClubData = ({ clubname }) => {
                     <img src={Mlsc} alt="" />
                 </div>
                 <div className="left-rating">
+                    {/* <Star />
                     <Star />
                     <Star />
                     <Star />
-                    <Star />
+                    <Star /> */}
+                    <p style={{color:"white",fontSize:"20px"}}>{Ratingdata}</p>
                     <Star />
                 </div>
 

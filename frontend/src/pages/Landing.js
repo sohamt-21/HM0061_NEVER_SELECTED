@@ -10,13 +10,13 @@ import ClubData from '../pages/ClubData'
 const Landing = () => {
   return (
     <div className='landing-container'>
-      <ClubData/>
-      {/* <HeroSection/>
+      {/* <ClubData/> */}
+      <HeroSection/>
       <Features/>
       <HorizentalS/>
       <Possibility/>
       <Reviews/>
-      <Footer/> */}
+      <Footer/>
     </div>
   )
 }

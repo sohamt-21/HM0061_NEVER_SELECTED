@@ -10,7 +10,7 @@
 <style>
     .MainClassInterest {
         margin: auto;
-        background-color: #fff;
+        color: aliceblue;
         padding: 32px 24px;
         font-size: 14px;
         font-family: inherit;
@@ -19,25 +19,33 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 20px;
         box-sizing: border-box;
         border-radius: 10px;
         box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
         width: 80vh;
-        border: 1px solid rgba(116, 116, 116, 0.581);
         position: relative;
+
+        background: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(8.5px);
+        -webkit-backdrop-filter: blur(8.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+
     }
 
     .HeadingInterest {
         text-align: center;
         font-weight: 600;
         font-size: 3.2rem;
+        color: aliceblue;
     }
 
     .FormElementInterest {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        justify-content: space-evenly;
+        
     }
 
     .FormElementInterest label {
@@ -45,56 +53,64 @@
         margin-bottom: 5px;
         font-size: 1.2rem;
         font-weight: bolder;
+        color: aliceblue;
     }
 
     .FormElementInterest #interest1 {
         width: 60%;
-        padding: 12px 16px;
         border-radius: 6px;
         font-family: inherit;
         border: 1px solid #ccc;
         font-size: 1rem;
         font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        
     }
+    
 
     .FormElementInterest #interest2 {
         width: 60%;
-        padding: 12px 16px;
+
         border-radius: 6px;
         font-family: inherit;
         border: 1px solid #ccc;
         font-size: 1rem;
         font-weight: bold;
+        
     }
 
     .FormElementInterest #skill1 {
         width: 60%;
-        padding: 12px 16px;
         border-radius: 6px;
         font-family: inherit;
         border: 1px solid #ccc;
         font-size: 1rem;
         font-weight: bold;
+        margin-right: 23px;
+        
     }
 
     .FormElementInterest #skill2 {
         width: 60%;
-        padding: 12px 16px;
         border-radius: 6px;
         font-family: inherit;
         border: 1px solid #ccc;
         font-size: 1rem;
         font-weight: bold;
+        margin-right: 23px;
+        
     }
 
     .FormElementInterest #skill3 {
         width: 60%;
-        padding: 12px 16px;
         border-radius: 6px;
         font-family: inherit;
         border: 1px solid #ccc;
         font-size: 1rem;
         font-weight: bold;
+        margin-right: 23px;
+        
     }
 
     /* This is For the Button  */
@@ -103,7 +119,7 @@
         width: fit-content;
         appearance: none;
         background-color: transparent;
-        border: 0.125em solid #1A1A1A;
+        border: 0.125em solid #ebebeb;
         border-radius: 0.9375em;
         box-sizing: border-box;
         color: #3B3B3B;
@@ -122,16 +138,17 @@
         user-select: none;
         -webkit-user-select: none;
         touch-action: manipulation;
-        will-change: transform;
+        color: aliceblue;
     }
 
     #inputInterstButton:disabled {
         pointer-events: none;
+        
     }
 
     #inputInterstButton:hover {
-        color: #fff;
-        background-color: #1A1A1A;
+        color: black;
+        background-color: #f2f2f2;
         box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
         transform: translateY(-2px);
     }
@@ -143,31 +160,32 @@
 
     /* This is End for the Button */
 
-    .FistHoriclass{
+    .FistHoriclass {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
-    .secondhoriclass{
+    .secondhoriclass {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-around;
     }
 </style>
 
-<body>
+<body style="background: radial-gradient(circle farthest-side at top center, #134580 0%, #04001D 63%);">
 
     <h1 class="HeadingInterest">Club Membership Prediction</h1>
     <br />
-    <div class="MainClassInterest">
+    <div class="MainClassInterest" style="height: 50vh;">
 
-        <form action="/predict" method="post" class="">
+        <form action="/predict" method="post" class="" style="width: 100%;display: flex;flex-direction: column;">
 
             <div class="FistHoriclass">
 
                 <div class="FormElementInterest">
 
-                    <label for="interest1">Interest 1</label>
+                    <label for="interest1">Interest 1:</label>
                     <select id="interest1" name="interest1" required>
                         <option value="Art">Art</option>
                         <option value="Coding">Coding</option>
@@ -183,12 +201,12 @@
                         <option value="Cooking">Cooking</option>
                         <option value="Travelling">Travelling</option>
                     </select><br><br>
-    
+
                 </div>
-    
-    
+
+
                 <div class="FormElementInterest">
-                    <label for="interest2">Interest 2</label>
+                    <label for="interest2">Interest 2:</label>
                     <select id="interest2" name="interest2" required>
                         <option value="Art">Art</option>
                         <option value="Coding">Coding</option>
@@ -205,22 +223,23 @@
                         <option value="Cooking">Cooking</option>
                     </select><br><br>
                 </div>
-    
-    
+
+
             </div>
 
-    
-            <div class="secondhoriclass">
+
+            <div class="secondhoriclass"
+                style="display: flex;flex-direction: column;justify-content: space-evenly;height: 15vh;">
                 <div class="FormElementInterest">
-                    <label for="skill1">Skill 1</label>
+                    <label for="skill1">Skill 1:</label>
                     <select id="skill1" name="skill1" required>
                         <option value="Python">Python</option>
-                    </select><br><br>
+                    </select>
                 </div>
-    
-    
+
+
                 <div class="FormElementInterest">
-                    <label for="skill2">Skill 2</label>
+                    <label for="skill2">Skill 2:</label>
                     <select id="skill2" name="skill2" required>
                         <option value="Asanas">Asanas</option>
                         <option value="Breathing Techniques">Breathing Techniques</option>
@@ -235,12 +254,12 @@
                         <option value="Research">Research</option>
                         <option value="Singing">Singing</option>
                         <option value="Styling">Styling</option>
-                    </select><br><br>
+                    </select>
                 </div>
-    
-    
+
+
                 <div class="FormElementInterest">
-                    <label for="skill3">Skill 3</label>
+                    <label for="skill3">Skill 3:</label>
                     <select id="skill3" name="skill3" required>
                         <option value="Asanas">Asanas</option>
                         <option value="Breathing Techniques">Breathing Techniques</option>
@@ -255,13 +274,11 @@
                         <option value="Research">Research</option>
                         <option value="Singing">Singing</option>
                         <option value="Styling">Styling</option>
-                    </select><br><br>
+                    </select>
                 </div>
             </div>
 
-
-            <input type="submit" id="inputInterstButton" value="Predict">
-
+            <input type="submit" id="inputInterstButton" value="Predict" style="margin-top: 10px;">
         </form>
     </div>
 

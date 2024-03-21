@@ -15,7 +15,7 @@ const ClubData = ({ clubname }) => {
     console.log(clubdata);
 
     const [selectedComponent, setSelectedComponent] = useState("Domain");
-    const [Ratingdata, setRatingdata] = useState(0);
+    const [Ratingdata, setRatingdata] = useState(4);
 
     const clickDomain = () => {
         setSelectedComponent('Domain');

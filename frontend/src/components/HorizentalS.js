@@ -65,7 +65,26 @@ function HorizentalS() {
                 Step 2
               </p>
               <p className="left1-bottom">
-                Hover Clubs for <a href="#clubs" style={{ color: "aliceblue" }}>information</a>
+                View Clubs <a href="#clubs" style={{ color: "aliceblue" }}>information</a>
+              </p>
+
+              <p style={{color:'aliceblue'}}>
+                Click on clubs to check thie respective details like Events, Domains ,etc.
+              </p>
+            </div>
+          </div>
+
+          <div className="scroll-section">
+            <div className="left1">
+              <p className="left1-top">
+                Step 3
+              </p>
+              <p className="left1-bottom">
+                Skill based <a href="http://127.0.0.1:5000/" style={{ color: "aliceblue" }}>club</a>
+              </p>
+
+              <p style={{color:'whitesmoke'}}>
+                Users can use this feature to check their sutaible club <br />based on their skills.
               </p>
             </div>
           </div>
@@ -76,7 +95,10 @@ function HorizentalS() {
                 Step 4
               </p>
               <p className="left1-bottom">
-                Get to know your skill favourable <a href="http://127.0.0.1:5000/" style={{ color: "aliceblue" }}>club</a>
+                Join our social <a href="https://org-connect-amber.vercel.app" style={{ color: "aliceblue" }}>App</a>
+              </p>
+              <p style={{color:'whitesmoke'}}>
+                Explore our social app and check various <br />features and explore communities.
               </p>
             </div>
           </div>
@@ -85,17 +107,6 @@ function HorizentalS() {
             <div className="left1">
               <p className="left1-top">
                 Step 5
-              </p>
-              <p className="left1-bottom">
-                Join our social <a href="https://org-connect-amber.vercel.app" style={{ color: "aliceblue" }}>App</a>
-              </p>
-            </div>
-          </div>
-
-          <div className="scroll-section">
-            <div className="left1">
-              <p className="left1-top">
-                Step 6
               </p>
               <p className="left1-bottom">
                 Community Guide
@@ -107,7 +118,7 @@ function HorizentalS() {
           <div className="scroll-section">
             <div className="left1">
               <p className="left1-top">
-                Step 7
+                Step 6
               </p>
               <p className="left1-bottom">
                 Interview and Discussion
@@ -122,7 +133,7 @@ function HorizentalS() {
           <div className="scroll-section">
             <div className="left1">
               <p className="left1-top">
-                Step 8
+                Step 7
               </p>
               <p className="left1-bottom">
                 Posts

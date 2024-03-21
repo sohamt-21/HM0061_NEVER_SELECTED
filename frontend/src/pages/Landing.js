@@ -13,7 +13,7 @@ const Landing = () => {
       {/* <ClubData clubname={'MLSC'}/> */}
       <HeroSection/>
       <Features/>
-      <HorizentalS/>
+      {/* <HorizentalS/> */}
       <Possibility/>
       <Reviews/>
       <Footer/>
